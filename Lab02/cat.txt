@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Alice and Bob like cats
+=======
+Alice and Bob like cats
+>>>>>>> ff07a927d572cdf51f2a487575c576a2a8d45ccf
