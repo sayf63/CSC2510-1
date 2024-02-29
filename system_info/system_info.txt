@@ -8,3 +8,23 @@ System Usage:
 Disk usage: 
 Filesystem            Size  Used Avail Use% Mounted on
 C:/Program Files/Git  454G  200G  255G  44% /
+System information has been gathered. Here's the summary: 
+02/21/24 18:50:25 CST
+Current user: 
+sayf6
+Current Directory: 
+/c/Users/sayf6/Desktop/Lab01/CSC2510/system_info
+System Usage: 
+Disk usage: 
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  454G  200G  254G  45% /
+System information has been gathered. Here's the summary: 
+02/21/24 18:51:19 CST
+Current user: 
+sayf6
+Current Directory: 
+/c/Users/sayf6/Desktop/Lab01/CSC2510/system_info
+System Usage: 
+Disk usage: 
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  454G  200G  254G  45% /
