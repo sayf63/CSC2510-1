@@ -37,32 +37,32 @@ Extension=${file##*.}
 	((filesmovedimages++))
 	byteconverter1=$( wc -c < $file )
 	let "bytesmovedimages = $bytesmovedimages + $byteconverter1"
-	mv $file ../images;;
+	mv "$file" ../images;;
 	 txt | docx | doc | pages | KEY | pptx | PPT | odt | md)
 	((filesmoveddocuments++))
 	byteconverter2=$( wc -c < $file )
 	let "bytesmoveddocuments = $bytesmoveddocuments + $byteconverter2"
-	mv $file ../documents;;
+	mv "$file" ../documents;;
 	pdf)
 	((filesmovedpdfs++))
 	byteconverter3=$( wc -c < $file)
         let "bytesmovedpdfs = $bytesmovedpdfs + $byteconverter3"
-        mv $file ../pdfs;;
+        mv "$file" ../pdfs;;
         sh | exe)
         ((filesmovedexecutables++))
         byteconverter4=$( wc -c < $file)
         let "bytesmovedexecutables = $bytesmovedexecutables + $byteconverter4"
-        mv $file ../executables;;
+        mv "$file" ../executables;;
         csv | xlsx | json)
         ((filesmoveddata++))
         byteconverter5=$( wc -c < $file)
         let "bytesmoveddata = $bytesmoveddata + $byteconverter5"
-        mv $file ../data;;
+        mv "$file" ../data;;
         zip)
         ((filesmovedunknown++))
         byteconverter6=$( wc -c < $file)
         let "bytesmovedunknown = $bytesmovedunknown + $byteconverter6"
-        mv $file ../unknown;;
+        mv "$file" ../unknown;;
 	esac
 done
 let "totalbytes = $bytesmovedimages + $bytesmoveddocuuments + $bytesmovedpdfs + $bytesmovedexecutables + $bytesmoveddata + $bytesmovedunknown"
