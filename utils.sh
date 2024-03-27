@@ -14,11 +14,14 @@ grep -v 'sudo' /etc/group
 grep -n 'sudo' /etc/group
 
 #I wasn't sure if you wanted us to do the sort commands in the utils.sh as it was never specificed where we should do them.
-#So just incase I will simply outline the commands I used for sort in the shell script just incase.
+#So just incase I will simply outline the commands I used for sort in the shell script.
 
 #Seventh question for utils.sh
 sort food
 #Eitghth question for utils.sh
 sort -r food
 #Ninth question for utils.sh
-
+sort -k 2,2 food
+#Tenth question for utils.sh
+cat food > calo
+sort -k4,4 -k3,3 -nr calo
